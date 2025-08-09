@@ -11,7 +11,7 @@ import java.util.List;
 @Service
 public class AdminService {
     @Autowired
-    AdminRepository s;
+    AdminRepository s;   //admin operation for like Save .Delete.update.
     public Admin saveAdmin(Admin student) {
         return s.save(student);
     }
